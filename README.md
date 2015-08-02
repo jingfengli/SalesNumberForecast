@@ -8,7 +8,7 @@ To do so, I used the random forest regression model [5]. Random forest regressio
 [2]:http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=1760046&pattern=dow+jones&tabMode=dataTable&srchLan=-1&p1=1&p2=-1
 [3]:http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=2820047&pattern=unemployment&tabMode=dataTable&srchLan=-1&p1=1&p2=-1
 [4]:http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=3790031&pattern=gdp&tabMode=dataTable&srchLan=-1&p1=1&p2=-1
-[5]sklearn.ensemble.0.16.1: http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+[5]:http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
 
  
 
