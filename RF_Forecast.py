@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 
-df=pd.read_csv('/Volumes/mac/Work/JobHunt/Palantir/PE Exercise/SummaryData.csv') # downloaded from statcan.gc.ca
+df=pd.read_csv('./SummaryData.csv') # downloaded from statcan.gc.ca
 time0 = df.Ref_Date
 
 #%% 1) Feature Engineering 
@@ -149,6 +149,6 @@ print '95 %% CI in units of mean sales number is %.2f %%' % (100*2*SD_percent/np
 #%% 4) Save data for matlab
 ##########################################################
 from scipy.io import loadmat, savemat
-savemat('/Volumes/mac/Work/JobHunt/Palantir/PE Exercise/Canada_Prediction.mat',{'recover_pred':recover_pred,'ground_truth':ground_truth,
+savemat('./Canada_Prediction.mat',{'recover_pred':recover_pred,'ground_truth':ground_truth,
                                                                                 'test_pred':test_pred,'test_labl':test_labl,'salesunadjusted':salesunadjusted,'kst':kst})
 
